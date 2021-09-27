@@ -1,0 +1,71 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    
+    int t,n,arr[n], diff[n-1], count, sum;
+    
+    cin>>t;
+    while(t--)
+    {
+        cin>>n;
+        sum=0;
+        count = 1;
+        int max = 0;
+        for(int i=0;i<n;i++)
+        {
+            cin>>arr[i];
+        }
+        
+        for(int j=0;j<n-1;j++)
+        {
+            diff[j]=arr[j+1]-arr[j];
+        }
+        
+        if(n==2)
+        {
+            cout<<"1"<<endl;
+        }
+        
+        else
+        {
+            
+            for(int x=0;x<n-1;x++)
+            {
+                
+                if(diff[x+1]>=diff[x])
+                {
+                    count++;
+                    continue;
+                }
+                
+                else
+                {
+                    //sum=max(sum,count);
+                    
+                    if(sum>count)
+                    {
+                        sum=sum;
+                    }
+                    else
+                    {
+                        sum=count;
+                    }
+                    
+                    count=1;
+                }
+                
+                
+            }
+            
+            cout<<sum<<endl;
+            
+            
+        }
+        
+        
+    }
+	// your code goes here
+	return 0;
+}

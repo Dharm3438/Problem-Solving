@@ -1,0 +1,35 @@
+implementation 1004
+dp 597
+math 577
+greedy 570
+brute force 460
+data structures 439
+constructive algorithms 333
+dfs and similar 284
+sortings 274
+binary search 261
+graphs 223
+trees 183
+strings 182
+number theory 155
+geometry 154
+combinatorics 152
+two pointers 120
+dsu 108
+bitmasks 102
+probabilities 80
+shortest paths 72
+hashing 70
+divide and conquer 60
+games 53
+matrices 45
+flows 40
+string suffix structures 36
+expression parsing 29
+graph matchings 23
+ternary search 16
+meet-in-the-middle 13
+fft 11
+2-sat 7
+chinese remainder theorem 6
+schedules 5
